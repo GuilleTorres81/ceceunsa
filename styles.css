@@ -549,7 +549,7 @@ a:hover {
     #info-box {
         height: 60vh;
     }
-    
+
     #drive-box {
         display: none !important;
     }
@@ -566,6 +566,10 @@ a:hover {
 
     #calendar {
         height: 60vh;
+    }
+
+    .members-card{
+        font-size: small;
     }
 
     .member-info {
