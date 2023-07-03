@@ -298,11 +298,20 @@ a:hover {
     height: 27%;
 }
 
-#principal-comment-box form {
+form {
     width: 95%;
     margin: 5px;
     display: flex;
     flex-direction: column;
+}
+
+.submit{
+    background: rgb(53, 164, 243);
+    transition: .3s;
+}
+
+.submit:active{
+    background: rgba(31, 97, 141, 0.5);
 }
 
 #drive-box {
