@@ -120,9 +120,15 @@ a:hover {
 }
 
 .media-icon {
+    width: 80%;
     margin-left: 10px;
-    width: 30px;
     align-self: center;
+    
+}
+
+.media-icon:hover{
+    transform: rotate(1turn);
+    transition: .3s;
 }
 
 #principal {
