@@ -4,23 +4,20 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Barlow Condensed';
+    font-family: "Barlow Condensed";
     color: aliceblue;
-    text-shadow: 1.5px 1px 5px black;
+    text-shadow: 1.5px 1px 1px black;
 }
 
 html {
     display: flex;
     scroll-behavior: smooth;
-    background-image: url(/src/bg-verde.png);
-    background-repeat: no-repeat;
+    background-image: url(/src/page-background.jpg);
     background-size: cover;
 }
 
-
-
 header {
-    background-image: url(/src/header-bg-exactas.jpg);
+    background-image: url(/src/background-design.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -38,23 +35,23 @@ main {
 footer {
     display: flex;
     justify-content: center;
-    background-color: rgba(5, 123, 5, 0.5);
+    background-color: rgba(31, 97, 141, 0.5);
 }
 
 a {
     text-decoration: none;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
 a:hover {
     transition: 0.5s;
-    color: rgb(5, 123, 5);
+    color: rgb(31, 97, 141);
 }
 
-.form-element{
+.form-element {
     padding: 0 5px;
     margin: 2.5px 0;
     font-size: small;
@@ -68,8 +65,8 @@ a:hover {
     align-items: center;
 }
 
-#main-menu{
-    display:flex;
+#main-menu {
+    display: flex;
     justify-content: center;
     width: 100%;
 }
@@ -85,7 +82,7 @@ a:hover {
 
 .menu-opt {
     display: block;
-    background-color: rgb(5, 136, 5);
+    background-color: rgb(31, 97, 141);
     padding: 3px 5px;
     border: solid black 2px;
     margin: 0 5%;
@@ -98,24 +95,23 @@ a:hover {
 }
 
 .menu-opt:hover {
-    transition: 0.5s;
+    transition: 1s;
     background-color: aliceblue;
-    color: rgb(5, 136, 5);
+    color: rgb(31, 97, 141);
 }
 
 #main-menu input {
     display: none;
 }
 
-#label-menu li{
-    display:flex;
+#label-menu li {
+    display: flex;
     align-items: center;
     margin-left: 2%;
     font-size: 120%;
     width: 20%;
     height: 100%;
 }
-
 
 #web-icon {
     width: 15%;
@@ -132,7 +128,6 @@ a:hover {
     justify-content: center;
     width: 70%;
     height: max-content;
-    background: rgba(5, 200, 5, 0.3)
 }
 
 /* ///////////////////////////////////////////////////////////////////// */
@@ -158,7 +153,6 @@ a:hover {
 .ppal-box {
     margin-top: 3%;
     padding: 0;
-    background-color: rgb(5, 123, 5);
     border: solid black 4px;
     border-radius: 10px;
 }
@@ -167,12 +161,12 @@ a:hover {
     height: 32%;
 }
 
-#horario-box a img{
+#horario-box a img {
     width: 100%;
     height: 100%;
 }
 
-#drive-cuadrado{
+#drive-cuadrado {
     display: none;
 }
 
@@ -224,7 +218,7 @@ a:hover {
 }
 
 .manual-btn:hover {
-    background: rgba(5, 123, 5, 0.5);
+    background: rgba(31, 97, 141, 0.5);
 }
 
 #radio1:checked ~ #first {
@@ -289,7 +283,6 @@ a:hover {
     overflow: hidden;
 }
 
-
 #comment-box {
     display: flex;
     flex-direction: column;
@@ -298,14 +291,12 @@ a:hover {
     overflow: hidden;
 }
 
-#comment-box form{
+#comment-box form {
     width: 95%;
     margin: 5px;
     display: flex;
     flex-flow: column wrap;
 }
-
-
 
 #right-column .ppal-box {
     display: flex;
@@ -315,22 +306,17 @@ a:hover {
 
 #drive-box {
     justify-content: center;
-
 }
 
-#drive-box a{
+#drive-box a {
     width: 100%;
 }
-
-
 
 #drives-link {
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    
 }
-
 
 #calendar {
     width: 100%;
@@ -357,8 +343,6 @@ a:hover {
     font-size: smaller;
 }
 
-
-
 /* ///////////////////////////////////////////////////////////////////// */
 /* ///////////////////////////////////////////////////////////////////// */
 /* COMISION DIRECTIVA */
@@ -371,13 +355,11 @@ a:hover {
     height: 100%;
     width: 80%;
     align-items: center;
-
 }
 
-#comision-info{
+#comision-info {
     text-align: center;
 }
-
 
 #members-list {
     margin-top: 10px;
@@ -403,25 +385,26 @@ a:hover {
     padding: 5px;
     border: 2px solid black;
     border-radius: 10px;
-    background: rgb(5, 123, 5);
+    background: rgb(31, 97, 141);
 }
 
-.member-content{
+.member-content {
     display: inherit;
     grid-template-rows: auto 1fr;
     text-align: center;
     gap: inherit;
 }
 
-.member{
+.member {
     display: inherit;
     grid-template-columns: 1fr 2fr;
     gap: inherit;
 }
 
-.member-info{
-    display: inherit;
-    grid-template-rows: 1fr auto;
+.member-info {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: space-between;
     margin: 0 20px;
     font-size: 25px;
     border: solid black 1px;
@@ -429,14 +412,29 @@ a:hover {
     padding: 10px;
 }
 
-.text-carrera{
+.text-carrera {
     font-size: 10px;
 }
 
+#estatuto-link {
+    display: flex;
+    width: 50%;
+    font-size: larger;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(31, 97, 141);
+}
 
+#estatuto-link:hover {
+    background-color: aliceblue;
+    transition: 1s;
+    color: black;
+}
 
-
-
+#estatuto-link img {
+    width: 20%;
+}
 
 /* ///////////////////////////////////////////////////////////////////// */
 /* ///////////////////////////////////////////////////////////////////// */
@@ -450,30 +448,27 @@ a:hover {
     box-sizing: content-box;
 }
 
-#services-box{
+#services-box {
     height: 98.5%;
     overflow: hidden;
 }
 
-#services-box p{
+#services-box p {
     margin: 10px;
     font-size: large;
 }
 
-#services-box ul{
+#services-box ul {
     list-style-type: none;
     font-size: large;
     text-align: left;
     padding: 0 15px;
 }
 
-
-.cece-photo{
+.cece-photo {
     width: 100%;
     height: 32%;
 }
-
-
 
 /* ///////////////////////////////////////////////////////////////////// */
 /* ///////////////////////////////////////////////////////////////////// */
@@ -481,104 +476,103 @@ a:hover {
 /* ///////////////////////////////////////////////////////////////////// */
 /* ///////////////////////////////////////////////////////////////////// */
 
-@media screen and (max-width: 800px){
-body{
-    width: 100vw;
+@media screen and (max-width: 800px) {
+    body {
+        width: 100vw;
+    }
+
+    header {
+        align-items: center;
+    }
+
+    #web-icon {
+        width: 25%;
+    }
+
+    #somos-exagono {
+        font-size: 24px;
+        width: 100%;
+    }
+
+    #main-menu ul {
+        width: 100%;
+    }
+
+    .menu-opt {
+        display: flex;
+        font-size: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #redes-sociales {
+        display: none !important;
+    }
+
+    section {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    #principal {
+        width: 90%;
+    }
+    .ppal-column {
+        width: 85%;
+        margin: 10px;
+    }
+
+    #left-column {
+        flex-flow: wrap row;
+        order: 1;
+    }
+
+    #right-column {
+        order: 2;
+    }
+
+    #services-column {
+        order: -1;
+        text-align: center;
+    }
+
+    #horario-box {
+        width: 49%;
+    }
+
+    #drive-cuadrado {
+        margin-left: 2%;
+        display: flex;
+        width: 49%;
+    }
+
+    #info-box {
+        height: 60vh;
+    }
+
+    #comment-box {
+        display: none;
+    }
+
+    #drive-box {
+        display: none !important;
+    }
+
+    #plugin {
+        height: 59vh;
+        width: 100%;
+    }
+
+    .fb-page {
+        width: 100%;
+        height: 100%;
+    }
+
+    #calendar {
+        height: 60vh;
+    }
+
+    .member-info {
+        font-size: medium;
+    }
 }
-
-header{
-    align-items: center;
-}
-
-#web-icon{
-    width: 25%;
-}
-
-#somos-exagono{
-    font-size: 24px;
-    width: 100%;
-}
-
-#main-menu ul{
-    width: 100%;
-}
-
-.menu-opt{
-    display: flex;
-    font-size: 100%;
-    justify-content: center;
-    align-items: center;
-}
-
-#redes-sociales{
-    display: none !important;
-}
-
-section{
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-
-}
-#principal{
-    width: 90%;
-}
-.ppal-column{
-    width: 85%;
-    margin: 10px;
-}
-
-#left-column{
-    flex-flow: wrap row;
-    order: 1;
-}
-
-#right-column{
-    order: 2;
-}
-
-#services-column{
-    order: -1;
-    text-align: center;
-}
-
-#horario-box{
-    width: 49%;
-}
-
-#drive-cuadrado{
-    margin-left: 2%;
-    display: flex;
-    width: 49%;
-}
-
-#info-box{
-    height: 60vh;
-}
-
-#comment-box{
-    display: none;
-}
-
-#drive-box{
-    display: none !important;
-}
-
-#plugin{
-    height: 59vh;
-    width: 100%;
-}
-
-.fb-page{
-    width: 100%;
-    height: 100%;
-}
-
-#calendar{
-    height: 60vh;
-}
-
-
-
-}
-
