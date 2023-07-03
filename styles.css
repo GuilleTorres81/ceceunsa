@@ -25,11 +25,13 @@ header {
     flex-direction: column;
     align-content: center;
     width: 100%;
+    border-bottom: 5px solid aliceblue;
 }
 
 main {
     display: flex;
     justify-content: center;
+    padding-top: 5px;
 }
 
 footer {
@@ -48,7 +50,7 @@ ul {
 
 a:hover {
     transition: 0.5s;
-    color: rgb(31, 97, 141);
+    color: rgb(53, 164, 243);
 }
 
 .form-element {
@@ -97,7 +99,7 @@ a:hover {
 .menu-opt:hover {
     transition: 1s;
     background-color: aliceblue;
-    color: rgb(31, 97, 141);
+    color: rgb(53, 164, 243);
 }
 
 #main-menu input {
@@ -383,7 +385,7 @@ a:hover {
     padding: 5px;
     border: 2px solid black;
     border-radius: 10px;
-    background: rgb(31, 97, 141);
+    background-color: rgb(53, 164, 243);
 }
 
 .member-content {
@@ -408,10 +410,7 @@ a:hover {
     border: solid black 1px;
     border-radius: 10px;
     padding: 10px;
-}
-
-.text-carrera {
-    font-size: 10px;
+    background-color: rgb(31, 97, 141);
 }
 
 #estatuto-link {
@@ -422,11 +421,11 @@ a:hover {
     align-items: center;
     border: 1px solid black;
     border-radius: 10px;
-    background-color: rgb(31, 97, 141);
+    background-color: rgb(53, 164, 243);
 }
 
 #estatuto-link:hover {
-    background-color: aliceblue;
+    background-color: rgb(31, 97, 141);
     transition: 1s;
 }
 
