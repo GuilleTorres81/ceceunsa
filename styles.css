@@ -125,12 +125,11 @@ a:hover {
     width: 80%;
     margin-left: 10px;
     align-self: center;
-    
 }
 
-.media-icon:hover{
+.media-icon:hover {
     transform: rotate(1turn);
-    transition: .3s;
+    transition: 0.3s;
 }
 
 #principal {
@@ -286,11 +285,17 @@ a:hover {
 }
 
 #plugin {
-    display: flex;
-    justify-content: center;
-    height: 70%;
+    height: 70% !important;
     border-radius: 10px;
+}
+
+#widbox {
     overflow: hidden;
+    box-sizing: unset;
+}
+
+.widbox-post-author-preview {
+    height: 20px;
 }
 
 #principal-comment-box {
@@ -307,16 +312,16 @@ form {
     flex-direction: column;
 }
 
-.form-element{
-    color:black
+.form-element {
+    color: black;
 }
 
-.submit{
+.submit {
     background: rgb(53, 164, 243);
-    transition: .3s;
+    transition: 0.3s;
 }
 
-.submit:active{
+.submit:active {
     background: rgba(31, 97, 141, 0.5);
 }
 
@@ -341,7 +346,7 @@ form {
     border-radius: 10px;
 }
 
-#calendar-box{
+#calendar-box {
     height: 70%;
 }
 
@@ -380,6 +385,12 @@ form {
 
 #comision-info {
     text-align: center;
+}
+
+#member-info p:first-line{
+    font-size: larger;
+    font-weight: bold;
+    font-style: oblique;
 }
 
 #members-list {
@@ -467,15 +478,15 @@ form {
 }
 
 #services-box {
-    height: 98.5%;
-    overflow: hidden;
     padding: 10px;
+    height: 100%;
     background-color: rgba(31, 97, 141, 0.5);
+    font-size: large;
+    text-align: center;
 }
 
 #services-box p {
-    margin: 10px;
-    font-size: large;
+    margin: 15px;
 }
 
 #services-box ul {
@@ -485,9 +496,75 @@ form {
     padding: 0 15px;
 }
 
+.photos-box {
+    overflow: hidden;
+}
+
+.photo-slides {
+    display: flex;
+    width: 300%;
+    height: 100%;
+}
+
+.photo-slides input {
+    display: none;
+}
+
 .cece-photo {
-    width: 100%;
-    height: 32%;
+    transition: 1s;
+    width: 33.5%;
+}
+
+.photo-slides img {
+    width: 33.5%;
+}
+
+#photo-radio1:checked ~ #firstleft-photo {
+    margin-left: 0%;
+}
+
+#photo-radio3:checked ~ #firstleft-photo {
+    margin-left: -33.5%;
+}
+
+#photo-radio5:checked ~ #firstleft-photo {
+    margin-left: -67%;
+}
+
+#photo-radio6:checked ~ #firstright-photo {
+    margin-left: 0%;
+}
+
+#photo-radio2:checked ~ #firstright-photo {
+    margin-left: -33.5%;
+}
+
+#photo-radio4:checked ~ #firstright-photo {
+    margin-left: -67%;
+}
+
+#photo-radio1:checked ~ .navigation-auto #photo-auto-btn1 {
+    background: black;
+}
+
+#photo-radio2:checked ~ .navigation-auto #photo-auto-btn2 {
+    background: black;
+}
+
+#photo-radio3:checked ~ .navigation-auto #photo-auto-btn3 {
+    background: black;
+}
+
+#photo-radio4:checked ~ .navigation-auto #photo-auto-btn4 {
+    background: black;
+}
+
+#photo-radio5:checked ~ .navigation-auto #photo-auto-btn5 {
+    background: black;
+}
+
+#photo-radio6:checked ~ .navigation-auto #photo-auto-btn6 {
+    background: black;
 }
 
 /* ///////////////////////////////////////////////////////////////////// */
@@ -587,12 +664,15 @@ form {
     #calendar {
         height: 60vh;
     }
+    #comision-info {
+        width: 100%;
+    }
 
-    .members-card{
-        font-size: small;
+    .members-card {
+        font-size: x-small;
     }
 
     .member-info {
-        font-size: medium;
+        font-size: small;
     }
 }

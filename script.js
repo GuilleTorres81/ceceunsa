@@ -1,4 +1,5 @@
 let count=1;
+let photoCount=1;
 const $form = document.getElementById('form');
 
 //MEJORAR ESTA PARTE
@@ -17,6 +18,14 @@ setInterval(function(){
         count=1
     }
 },5000)
+
+setInterval(function(){
+    document.getElementById('photo-radio' + photoCount).checked=true;
+    photoCount++;
+    if(photoCount>6){
+        photoCount=0;
+    }
+},4000)
 
 function handleSubmit(event){
     event.preventDefault();
@@ -50,3 +59,5 @@ function displaySection(){
         }break;
     }
 }
+
+
