@@ -387,8 +387,7 @@ form {
     text-align: center;
 }
 
-#member-info p:first-line{
-    font-size: larger;
+.member-info p:first-line{
     font-weight: bold;
     font-style: oblique;
 }
