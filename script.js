@@ -17,7 +17,7 @@ setInterval(function(){
     if(count>4){
         count=1
     }
-},5000)
+},4000)
 
 setInterval(function(){
     document.getElementById('photo-radio' + photoCount).checked=true;
