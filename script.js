@@ -23,7 +23,7 @@ setInterval(function(){
     document.getElementById('photo-radio' + photoCount).checked=true;
     photoCount++;
     if(photoCount>6){
-        photoCount=0;
+        photoCount=1;
     }
 },2000)
 

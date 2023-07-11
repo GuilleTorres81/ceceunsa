@@ -285,16 +285,31 @@ a:hover {
 }
 
 #plugin {
-    height: 70%;
+    height: 60%;
     border-radius: 10px;
 }
 
-#principal-comment-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 27%;
+.fb-page {
+    width: 100%;
+    height: 100%;
 }
+
+#drive-box {
+    justify-content: center;
+    height: 37%;
+}
+
+#drive-box a {
+    width: 100%;
+}
+
+
+#drives-link {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
 
 form {
     width: 95%;
@@ -316,20 +331,14 @@ form {
     background: rgba(31, 97, 141, 0.5);
 }
 
-#drive-box {
+#principal-comment-box {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     height: 27%;
 }
 
-#drive-box a {
-    width: 100%;
-}
 
-#drives-link {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-}
 
 #calendar {
     width: 100%;
@@ -646,10 +655,6 @@ form {
         width: 100%;
     }
 
-    .fb-page {
-        width: 100%;
-        height: 100%;
-    }
 
     #calendar {
         height: 60vh;
