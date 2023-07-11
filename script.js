@@ -25,7 +25,7 @@ setInterval(function(){
     if(photoCount>6){
         photoCount=0;
     }
-},4000)
+},2000)
 
 function handleSubmit(event){
     event.preventDefault();

@@ -285,17 +285,8 @@ a:hover {
 }
 
 #plugin {
-    height: 70% !important;
+    height: 70%;
     border-radius: 10px;
-}
-
-#widbox {
-    overflow: hidden;
-    box-sizing: unset;
-}
-
-.widbox-post-author-preview {
-    height: 20px;
 }
 
 #principal-comment-box {
@@ -510,7 +501,7 @@ form {
 }
 
 .cece-photo {
-    transition: 1s;
+    transition: .33s;
     width: 33.5%;
 }
 
