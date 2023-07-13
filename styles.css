@@ -518,51 +518,51 @@ form {
     width: 33.5%;
 }
 
-#photo-radio1:checked ~ #firstleft-photo {
+#left-photo-radio1:checked ~ #firstleft-photo {
     margin-left: 0%;
 }
 
-#photo-radio3:checked ~ #firstleft-photo {
+#left-photo-radio2:checked ~ #firstleft-photo {
     margin-left: -33.5%;
 }
 
-#photo-radio5:checked ~ #firstleft-photo {
+#left-photo-radio3:checked ~ #firstleft-photo {
     margin-left: -67%;
 }
 
-#photo-radio6:checked ~ #firstright-photo {
+#right-photo-radio1:checked ~ #firstright-photo {
     margin-left: 0%;
 }
 
-#photo-radio2:checked ~ #firstright-photo {
+#right-photo-radio2:checked ~ #firstright-photo {
     margin-left: -33.5%;
 }
 
-#photo-radio4:checked ~ #firstright-photo {
+#right-photo-radio3:checked ~ #firstright-photo {
     margin-left: -67%;
 }
 
-#photo-radio1:checked ~ .navigation-auto #photo-auto-btn1 {
+#left-photo-radio1:checked ~ .navigation-auto #left-photo-auto-btn1 {
     background: black;
 }
 
-#photo-radio2:checked ~ .navigation-auto #photo-auto-btn2 {
+#left-photo-radio2:checked ~ .navigation-auto #left-photo-auto-btn2 {
     background: black;
 }
 
-#photo-radio3:checked ~ .navigation-auto #photo-auto-btn3 {
+#left-photo-radio3:checked ~ .navigation-auto #left-photo-auto-btn3 {
     background: black;
 }
 
-#photo-radio4:checked ~ .navigation-auto #photo-auto-btn4 {
+#right-photo-radio1:checked ~ .navigation-auto #right-photo-auto-btn1 {
     background: black;
 }
 
-#photo-radio5:checked ~ .navigation-auto #photo-auto-btn5 {
+#right-photo-radio2:checked ~ .navigation-auto #right-photo-auto-btn2 {
     background: black;
 }
 
-#photo-radio6:checked ~ .navigation-auto #photo-auto-btn6 {
+#right-photo-radio3:checked ~ .navigation-auto #right-photo-auto-btn3 {
     background: black;
 }
 

@@ -1,5 +1,6 @@
 let count=1;
-let photoCount=1;
+let leftPhotoCount=1;
+let rightPhotoCount=1;
 const $form = document.getElementById('form');
 
 //MEJORAR ESTA PARTE
@@ -20,10 +21,18 @@ setInterval(function(){
 },4000)
 
 setInterval(function(){
-    document.getElementById('photo-radio' + photoCount).checked=true;
-    photoCount++;
-    if(photoCount>6){
-        photoCount=1;
+    document.getElementById('left-photo-radio' + leftPhotoCount).checked=true;
+    leftPhotoCount++;
+    if(leftPhotoCount>3){
+        leftPhotoCount=1;
+    }
+},2000)
+
+setInterval(function(){
+    document.getElementById('right-photo-radio' + rightPhotoCount).checked=true;
+    rightPhotoCount++;
+    if(rightPhotoCount>3){
+        rightPhotoCount=1;
     }
 },2000)
 
