@@ -53,6 +53,15 @@ a:hover {
     color: rgb(53, 164, 243);
 }
 
+#info-banner{
+    width: 70%;
+    justify-self: center;
+}
+
+#info-banner img{
+    width: 100%;
+}
+
 .form-element {
     padding: 0 5px;
     margin: 2.5px 0;
@@ -147,6 +156,7 @@ a:hover {
 
 #inicio {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     height: 100%;
     box-sizing: content-box;
