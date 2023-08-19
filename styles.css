@@ -398,7 +398,15 @@ form {
     display: inherit;
     flex-direction: inherit;
 }
+#cece-photo01{
+    display: flex;
+    background-image: url(src/comision-directiva/presidente.png);
+}
 
+.member-instagram{
+    width: 15%;
+    flex-direction: column-reverse;
+}
 .photo {
     width: 100%;
     margin: 0 15px;
