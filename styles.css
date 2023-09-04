@@ -54,6 +54,7 @@ a:hover {
 }
 
 #info-banner{
+    display: none;
     margin: 3px;
     width: 70%;
     justify-self: center;
@@ -648,10 +649,6 @@ form {
     }
     #principal {
         width: 90%;
-    }
-
-    #info-banner{
-        width: 80vw;
     }
 
     .ppal-column {
